@@ -18,8 +18,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2
           aws-bucket: ${{ secrets.AWS_BUCKET}}
-          file-path: ./README.md
-          # destination-dir:
+          file-path: ./.github/workflows/s3-upload.yml
+          destination-dir: ./artifacts/W8HVjjqpDcvLivwcEKELr4VPWqsgXppQ/
           # bucket-root:
           output-file-url: true
           # content-type:
